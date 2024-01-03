@@ -1,0 +1,56 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestAll">
+    <test name="VerifySuccessfulLogin">
+        <classes>
+            <class name="tests.VerifyLogin" />
+
+        </classes>
+    </test>
+    <test name="VerifySuccessfulNameEditing">
+        <classes>
+            <class name="tests.VerifyNameEditing" />
+        </classes>
+    </test>
+
+    <test name="VerifySuccessfullyCreatingNewUser">
+        <classes>
+            <class name="tests.VerifyCreateNewUser" />
+        </classes>
+    </test>
+
+    <test name="VerifySuccessfullyCreatingNewAttendee">
+        <classes>
+            <class name="tests.VerifyCreateNewAttendee" />
+        </classes>
+    </test>
+
+    <test name="VerifySuccessfullyCreatingNewMentor">
+        <classes>
+            <class name="tests.VerifyCreateNewMentor" />
+        </classes>
+    </test>
+
+    <test name="VerifySuccessfullyCreatingNewTag">
+        <classes>
+            <class name="tests.VerifyCreateNewTags" />
+        </classes>
+    </test>
+
+    <test name="VerifyViewWebinarSuccessfully">
+        <classes>
+            <class name="tests.VerifyViewWebinar" />
+        </classes>
+    </test>
+
+    <test name="VerifyRegisterToWebinarSuccessfully">
+        <classes>
+            <class name="tests.VerifyRegisterToWebinar" />
+        </classes>
+    </test>
+
+    <test name="VerifyLogoutSuccessfully">
+        <classes>
+            <class name="tests.VerifyLogout" />
+        </classes>
+    </test>
+</suite>
